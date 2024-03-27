@@ -53,6 +53,7 @@
     "@adonisjs/core": "^6.2.2",
     "@adonisjs/lucid": "^20.5.1",
     "@adonisjs/session": "^7.3.0",
+    "@adonisjs/shield": "^8.1.1",
     "@vinejs/vine": "^1.8.0",
     "luxon": "^3.4.4",
     "pg": "^8.11.3",
