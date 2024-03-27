@@ -49,6 +49,7 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
+    "@adonisjs/auth": "^9.1.1",
     "@adonisjs/core": "^6.2.2",
     "@adonisjs/lucid": "^20.5.1",
     "@vinejs/vine": "^1.8.0",
