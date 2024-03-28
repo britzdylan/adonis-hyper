@@ -1,5 +1,5 @@
-import Button from '#fragments/components/button'
-import { Toggle } from '#fragments/components/toggle/index'
+import { Button, Switch } from '#components'
+
 export default function Home() {
   return (
     <>
@@ -11,7 +11,7 @@ export default function Home() {
           Count: <span x-text="count"></span>
         </p>
       </div>
-      <Toggle input={{ id: 'toggle', name: 'toggle', checked: false }} />
+      <Switch input={{ id: 'toggle', name: 'toggle', checked: false }} />
     </>
   )
 }
