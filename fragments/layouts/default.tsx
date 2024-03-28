@@ -8,11 +8,12 @@ export function DefaultLayout({ children }: PropsWithChildren) {
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         {viteReactRefresh()}
-        {viteAssets(['resources/css/app.css','resources/js/app.js'])}
+        {viteAssets(['resources/css/app.css', 'resources/js/app.js'])}
         <title>AdonisJS</title>
       </head>
-      <body class="bg-background flex flex-col justify-center items-center min-h-screen font-sans text-foreground">{children}</body>
+      <body class="bg-background flex flex-col justify-center items-center min-h-screen font-sans text-foreground">
+        {children}
+      </body>
     </html>
   )
 }
-
