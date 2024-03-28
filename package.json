@@ -65,6 +65,7 @@
     "@adonisjs/vite": "^2.0.2",
     "@vinejs/vine": "^1.8.0",
     "adonisjsx": "^0.2.0",
+    "alpinejs": "^3.13.7",
     "luxon": "^3.4.4",
     "pg": "^8.11.3",
     "reflect-metadata": "^0.2.1"

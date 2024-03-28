@@ -11,7 +11,7 @@ export function DefaultLayout({ children }: PropsWithChildren) {
         {viteAssets(['resources/css/app.css','resources/js/app.js'])}
         <title>AdonisJS</title>
       </head>
-      <body>{children}</body>
+      <body class="bg-white flex flex-col justify-center items-center min-h-screen font-sans">{children}</body>
     </html>
   )
 }
