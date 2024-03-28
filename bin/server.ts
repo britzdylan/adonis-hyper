@@ -10,6 +10,7 @@
 */
 
 import 'reflect-metadata'
+import 'adonisjsx/register'
 import { Ignitor, prettyPrintError } from '@adonisjs/core'
 
 /**

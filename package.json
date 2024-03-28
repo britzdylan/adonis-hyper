@@ -29,7 +29,10 @@
     "#database/*": "./database/*.js",
     "#start/*": "./start/*.js",
     "#tests/*": "./tests/*.js",
-    "#config/*": "./config/*.js"
+    "#config/*": "./config/*.js",
+    "#fragments/*": [
+      "./fragments/*.js"
+    ]
   },
   "devDependencies": {
     "@adonisjs/assembler": "^7.1.1",
@@ -58,6 +61,7 @@
     "@adonisjs/static": "^1.1.1",
     "@adonisjs/vite": "^2.0.2",
     "@vinejs/vine": "^1.8.0",
+    "adonisjsx": "^0.2.0",
     "luxon": "^3.4.4",
     "pg": "^8.11.3",
     "reflect-metadata": "^0.2.1"
