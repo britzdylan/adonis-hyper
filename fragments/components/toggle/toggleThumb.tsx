@@ -1,5 +1,4 @@
 import { cn } from '#fragments/lib/utils'
-import type { ToggleRootProps } from '#fragments/components/toggle/toggleRoot'
 
 interface ToggleThumbProps {
   id: string
