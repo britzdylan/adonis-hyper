@@ -1,5 +1,5 @@
 import { defineConfig } from 'adonisjsx'
-import { DefaultLayout } from '#fragments/layouts/default'
+import { DefaultLayout } from '#layouts/default'
 
 const jsxConfig = defineConfig({
   defaultLayout: DefaultLayout,
