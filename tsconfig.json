@@ -23,7 +23,15 @@
       "#tests/*": ["./tests/*.js"],
       "#start/*": ["./start/*.js"],
       "#config/*": ["./config/*.js"],
-      "#fragments/*": ["./fragments/*.js"]
+      "#primitives/*": ["./fragments/components/primitives/*.js"],
+      "#components": ["./fragments/components/index.js"],
+      "#fragments/*": ["./fragments/*.js"],
+      "#layouts/*": [
+        "./fragments/layouts/*.js"
+      ],
+      "#pages/*": [
+        "./fragments/pages/*.js"
+      ],
     },
     "plugins": [
       {

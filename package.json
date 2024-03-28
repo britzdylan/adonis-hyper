@@ -30,9 +30,19 @@
     "#start/*": "./start/*.js",
     "#tests/*": "./tests/*.js",
     "#config/*": "./config/*.js",
-    "#fragments/*": [
-      "./fragments/*.js"
-    ]
+    "#primitives/*": [
+      "./fragments/components/primitives/*.js"
+    ],
+    "#components": [
+      "./fragments/components/index.js"
+    ],
+    "#layouts/*": [
+      "./fragments/layouts/*.js"
+    ],
+    "#pages/*": [
+      "./fragments/pages/*.js"
+    ],
+    "#fragments/*": ["./fragments/*.js"]
   },
   "devDependencies": {
     "@adonisjs/assembler": "^7.1.1",
