@@ -8,7 +8,7 @@ export function DefaultLayout({ children }: PropsWithChildren) {
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         {viteReactRefresh()}
-        {viteAssets(['resources/js/app.js'])}
+        {viteAssets(['resources/css/app.css','resources/js/app.js'])}
         <title>AdonisJS</title>
       </head>
       <body>{children}</body>
