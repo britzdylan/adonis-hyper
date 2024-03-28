@@ -23,7 +23,7 @@
       "#tests/*": ["./tests/*.js"],
       "#start/*": ["./start/*.js"],
       "#config/*": ["./config/*.js"],
-      "#fragments/*": ["./fragments/*.tsx"]
+      "#fragments/*": ["./fragments/*.js"]
     },
     "plugins": [
       {
