@@ -1,9 +1,9 @@
 {
-  "name": "adonis-athx",
-  "version": "0.0.0",
+  "name": "adonis-hyper",
+  "version": "0.0.1",
   "private": true,
   "type": "module",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
     "start": "node bin/server.js",
     "build": "node ace build",
@@ -89,5 +89,11 @@
   "eslintConfig": {
     "extends": "@adonisjs/eslint-config/app"
   },
-  "prettier": "@adonisjs/prettier-config"
+  "prettier": "@adonisjs/prettier-config",
+  "main": "ace.js",
+  "directories": {
+    "test": "tests"
+  },
+  "author": "Dylan Britz",
+  "description": ""
 }
