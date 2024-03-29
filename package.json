@@ -42,7 +42,9 @@
     "#pages/*": [
       "./fragments/pages/*.js"
     ],
-    "#fragments/*": ["./fragments/*.js"]
+    "#fragments/*": [
+      "./fragments/*.js"
+    ]
   },
   "devDependencies": {
     "@adonisjs/assembler": "^7.1.1",
@@ -78,6 +80,7 @@
     "alpinejs": "^3.13.7",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
+    "htmx.org": "^1.9.11",
     "luxon": "^3.4.4",
     "pg": "^8.11.3",
     "reflect-metadata": "^0.2.1",
