@@ -1,6 +1,6 @@
 import { PropsWithChildren } from 'adonisjsx'
 import { cn } from '#fragments/lib/utils'
-import type { classProps } from '#fragments/lib/types'
+import type { ClassProps } from '#fragments/lib/types'
 
 interface SwitchRootProps {
   checked: boolean
@@ -8,7 +8,7 @@ interface SwitchRootProps {
   name: string
 }
 
-interface SwitchThumbProps extends classProps {
+interface SwitchThumbProps extends ClassProps {
   id: string
 }
 

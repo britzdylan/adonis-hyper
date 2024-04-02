@@ -1,3 +1,3 @@
-export interface classProps {
+export interface ClassProps {
   class?: string
 }

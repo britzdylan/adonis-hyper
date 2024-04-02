@@ -1,4 +1,4 @@
-import { Button } from '#primitives/Button'
-import { Switch } from '#primitives/Switch'
+import { Button } from '#primitives/button'
+import { Switch } from '#primitives/switch'
 
 export { Button, Switch }
