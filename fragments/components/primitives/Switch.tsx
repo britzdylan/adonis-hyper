@@ -45,7 +45,7 @@ function Root({ children, ...props }: PropsWithChildren<SwitchRootProps>) {
 }
 
 function Slide({ children, ...props }: PropsWithChildren<classProps>) {
-  const { className } = props
+  const { class: className } = props
   return (
     <div
       class={[
@@ -63,7 +63,7 @@ function Slide({ children, ...props }: PropsWithChildren<classProps>) {
 }
 
 function Thumb({ ...props }: SwitchThumbProps) {
-  const { id, className } = props
+  const { id, class: className } = props
   return (
     <label
       for={id}
@@ -83,8 +83,8 @@ function Switch({ ...props }: SwitchProps) {
 
   return (
     <Root {...input}>
-      <Slide className={trackClass}>
-        <Thumb id={input.id} className={thumbClass} />
+      <Slide class={trackClass}>
+        <Thumb id={input.id} class={thumbClass} />
       </Slide>
     </Root>
   )
