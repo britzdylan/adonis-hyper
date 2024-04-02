@@ -44,7 +44,7 @@ function Root({ children, ...props }: PropsWithChildren<SwitchRootProps>) {
   )
 }
 
-function Slide({ children, ...props }: PropsWithChildren<classProps>) {
+function Slide({ children, ...props }: PropsWithChildren<ClassProps>) {
   const { class: className } = props
   return (
     <div

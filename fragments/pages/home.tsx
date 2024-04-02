@@ -1,4 +1,4 @@
-import { Button, Switch } from '#components'
+import { Button } from '#components'
 export default function Home() {
   return (
     <div class="py-24 sm:py-32 md:py-40 relative dark:bg-gradient-to-b from-gray-950 to-gray-900 min-h-screen">
