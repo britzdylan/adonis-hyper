@@ -28,6 +28,8 @@
 npm init adonisjs@latest -- -K="britzdylan/adonis-hyper"
 # Install dependencies
 npm install
+# Run the dev server
+node ace serve --watch
 ```
 
 please refer to the individual packages for more information on how to use them.

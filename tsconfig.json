@@ -26,12 +26,8 @@
       "#primitives/*": ["./fragments/components/primitives/*.js"],
       "#components": ["./fragments/components/index.js"],
       "#fragments/*": ["./fragments/*.js"],
-      "#layouts/*": [
-        "./fragments/layouts/*.js"
-      ],
-      "#pages/*": [
-        "./fragments/pages/*.js"
-      ],
+      "#layouts/*": ["./fragments/layouts/*.js"],
+      "#pages/*": ["./fragments/pages/*.js"]
     },
     "plugins": [
       {

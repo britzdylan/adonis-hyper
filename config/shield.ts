@@ -12,7 +12,7 @@ const shieldConfig = defineConfig({
       scriptSrc: ['@viteDevUrl', `'self'`, `'unsafe-eval'`],
       fontSrc: ['@viteDevUrl', `'self'`],
       imgSrc: ['@viteDevUrl', `'self'`],
-      connectSrc: ['@viteDevUrl', '@viteHmrUrl',`'self'`],
+      connectSrc: ['@viteDevUrl', '@viteHmrUrl', `'self'`],
     },
     reportOnly: true,
   },
