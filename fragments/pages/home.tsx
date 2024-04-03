@@ -1,14 +1,13 @@
 import { Button } from '#components'
 export default function Home() {
   return (
-    <div class="py-24 sm:py-32 md:py-40 relative dark:bg-gradient-to-b from-gray-950 to-gray-900 min-h-screen">
+    <div class="py-24 relative dark:bg-gradient-to-b from-gray-950 to-gray-900 flex-grow flex flex-col gap-12">
       <svg
         data-v-835f5c7a=""
-        width="100%"
         viewBox="0 0 1440 869"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        class="absolute inset-x-0 w-full hidden lg:block text-red-500 z-0"
+        class="absolute inset-x-0 inset-y-0 hidden lg:block z-0 h-full mx-auto"
       >
         <g clip-path="url(#clip0_184_92145)" data-v-835f5c7a="">
           <path
@@ -132,11 +131,11 @@ export default function Home() {
           </p>
         </div>
       </header>
-      <div class="text-center mt-32 text-gray-500 dark:text-gray-400 z-10">
+      <div class="text-center text-gray-500 dark:text-gray-400 z-10 mt-12">
         <h2 class="text-lg font-semibold leading-8 text-gray-900 dark:text-white">
           Built with trusted technologies
         </h2>
-        <div class="mx-auto mt-10 flex flex-wrap items-center justify-center gap-8">
+        <div class="mx-auto mt-10 flex flex-wrap items-center justify-center gap-12">
           <div class="inline-flex flex-col items-center justify-center">
             <svg
               class="w-12 h-12 text-white fill-white"
@@ -199,7 +198,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div class="flex flex-col items-center py-24 z-10 relative">
+      <div class="flex flex-col items-center z-10 relative mt-12">
         <h2 class="text-lg font-semibold leading-8 text-gray-900 dark:text-white">
           AlpineJs Example
         </h2>
